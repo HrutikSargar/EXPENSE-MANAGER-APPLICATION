@@ -54,14 +54,7 @@ public class ExpenseManager extends HttpServlet {
 			case "/homePage":
 				displayData(req,resp);
 				break;
-//			case "/transaction":
-//				showTransaction(req,resp);
-//				break;
-			
 		}
-		
-	
-	
 	}
 
 	private void showTransaction(HttpServletRequest req, HttpServletResponse resp) {
@@ -80,8 +73,6 @@ public class ExpenseManager extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
 	}
 
 	private void displayData(HttpServletRequest req, HttpServletResponse resp) {
